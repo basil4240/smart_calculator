@@ -1,0 +1,49 @@
+name: smart_calculator
+description: A professional Flutter calculator widget with customizable design that can be easily integrated into any Flutter application.
+version: 1.0.0
+homepage: https://github.com/basil4240/smart_calculator
+repository: https://github.com/basil4240/smart_calculator
+issue_tracker: https://github.com/basil4240/smart_calculator/issues
+documentation: https://github.com/basil4240/smart_calculator/blob/main/README.md
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+screenshots:
+  - description: 'Smart Calculator in light mode'
+    path: screenshots/light_mode.png
+  - description: 'Smart Calculator in dark mode'
+    path: screenshots/dark_mode.png
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+funding:
+  - https://patreon.com/basil4240
+
+topics:
+  - calculator
+  - ui
+  - widget
+  - tools
