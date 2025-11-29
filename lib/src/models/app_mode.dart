@@ -1,0 +1,4 @@
+enum AppMode {
+  calculator,
+  converter,
+}
